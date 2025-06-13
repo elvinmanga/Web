@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Online Shop</title>
+    <link rel="stylesheet" href="shop.css"> <!-- External CSS -->
+    <style>
+        /* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f8f9fa;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+}
+
+header {
+    background-color: #343a40;
+    color: rgb(255, 255, 255);
+    height: 100px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 40px;
+}
+
+.product {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    width: 220px;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.product h3 {
+    margin: 15px 0 5px;
+}
+
+.product p {
+    color: #28a745;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #343a40;
+    color: white;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>My Shop</h1>
+            
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>    
+    </header>
+
+    <main class="product-grid">
+        <div class="product">
+            <img src=" nike-5644799_640.jpg" alt="Product 1">
+            <h3>Product 1</h3>
+            <p>$19.99</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src=" ai-generated-8644121_640.png " alt="Product 2">
+            <h3>Product 2</h3>
+            <p>$29.99</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="nike-5128118_640.jpg " alt="Product 3">
+            <h3>Product 3</h3>
+            <p>$39.99</p>
+            <button>Add to Cart</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 My Shop. All rights reserved.</p>
+    </footer>
+</body>
+</html>
